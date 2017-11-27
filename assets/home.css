@@ -1,0 +1,85 @@
+html, body {
+	height: 100%;
+}
+
+body {
+	background-image: url("background.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	margin: 0 auto;
+}
+
+#nav {
+	background-color: rgba(255, 255, 255, 0.55);
+}
+
+ul {
+	list-style-type: none;
+	margin: 0 auto;
+	overflow: hidden;
+	width: 395px;
+}
+
+li {
+	float: left;
+	font-family:"Helvetica Neue";
+	letter-spacing:1px;
+	text-transform:uppercase;
+	font-weight:700;
+	font-size:13px;
+}
+
+li a {
+	display: block;
+	color: black;
+	text-align: center;
+	padding: 20px 40px;
+	text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+
+li a:hover {
+	background-color: rgb(255, 84, 94);
+}
+
+#biotitle {
+	font-size: 85px;
+	font-family: "Bangers";
+	padding-top:80px;
+}
+
+#bio {
+	color: #4b4b5c;
+	font-family:"Helvetica Neue";
+	letter-spacing:1.5px;
+	font-size:15px;
+	text-transform:uppercase;
+	font-weight:700;
+}
+
+#view {
+	font-size: 40px;
+	outline:0;
+	text-transform: uppercase;
+	color: white;
+	background: rgb(255, 84, 94);
+	padding-top:10px;
+	padding-bottom:10px;
+	padding-left:15px;
+	padding-right:15px;
+	letter-spacing:3px;
+	text-align: center;
+	font-family:"Bangers";
+	margin-top:175px;
+	border:3px solid rgba(129, 126, 83, 0.37);
+}
+
+#view a {
+	color:white;
+	text-decoration:none;
+}
+
+.view-hover {
+	font-size:50px;
+}

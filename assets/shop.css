@@ -1,0 +1,130 @@
+html, body {
+	height:100%;
+}
+
+body {
+	background-color:#ffef87;
+	margin:0 auto;
+}
+
+#nav {
+	background-color: rgba(255, 255, 255, 0.55);
+}
+
+ul {
+	list-style-type: none;
+	margin: 0 auto;
+	overflow: hidden;
+	width: 395px;
+}
+
+li {
+	float: left;
+	font-family:"Helvetica Neue";
+	letter-spacing:1px;
+	text-transform:uppercase;
+	font-weight:700;
+	font-size:13px;
+}
+
+li a {
+	display: block;
+	color: black;
+	text-align: center;
+	padding: 20px 40px;
+	text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+
+li a:hover {
+	background-color: rgb(255, 84, 94);
+}
+
+#selection {
+	display:inline-block;
+	margin-top:120px;
+}
+
+#board1, #board2, #board3 {
+	display:inline-block;
+}
+
+.title1, .title2, .title3 {
+	margin-left:-15px;
+	font-family:"Bangers";
+	font-size:40px;
+	letter-spacing:1.5px;
+}
+
+#board1, #board2 {
+	padding-right:200px;
+}
+
+.sale {
+	text-decoration:line-through;
+	color:black;
+}
+
+.price {
+	font-family:"Helvetica Neue";
+	font-weight:500;
+	letter-spacing:1px;
+	font-size:15px;
+	color: rgb(255, 84, 94);
+}
+
+.board1, .board2, .board3 {
+	padding-bottom:20px;
+}
+
+a {
+	text-decoration:none;
+	color:black;
+}
+
+#main {
+	width:920px;
+	margin:0 auto;
+	margin-top:100px;
+}
+
+#main div {
+	float:right;
+	width:600px;
+}
+
+#main img {
+	float:left;
+	padding-right:80px;
+}
+
+#main div .description {
+	letter-spacing:1px;
+	font-family:"Helvetica Neue";
+}
+
+#buy {
+	font-size: 20px;
+	outline:0;
+	text-transform: uppercase;
+	color: white;
+	background: rgb(255, 84, 94);
+	padding-top:10px;
+	padding-bottom:10px;
+	padding-left:15px;
+	padding-right:15px;
+	letter-spacing:3px;
+	text-align: center;
+	font-family:"Bangers";
+	border:3px solid rgba(129, 126, 83, 0.37);
+}
+
+button a {
+	text-decoration:none;
+	color:white;
+}
+
+.buy-hover {
+	font-size:25px;
+}
